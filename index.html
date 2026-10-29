@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Semáforo da Comunicação: aprenda boas práticas de comunicação e acessibilidade em interfaces web.">
+    <title>Semáforo da Comunicação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho" id="inicio">
+        <div class="container">
+            <h1>🚦 Semáforo da Comunicação</h1>
+            <p>
+                Aprenda a criar interfaces web com mensagens claras,
+                acessíveis e fáceis de compreender.
+            </p>
+        </div>
+    </header>
+
+    <nav class="menu" aria-label="Menu principal">
+        <div class="container">
+            <a href="#inicio">Início</a>
+            <a href="#verde">🟢 Boas práticas</a>
+            <a href="#amarelo">🟡 Cuidado</a>
+            <a href="#vermelho">🔴 Evitar</a>
+            <a href="#sobre">Sobre o projeto</a>
+        </div>
+    </nav>
+
+    <main id="conteudo" class="container">
+        <section class="introducao">
+            <h2>Como está a comunicação da sua interface?</h2>
+            <p>
+                O semáforo ajuda a identificar práticas que tornam
+                sites mais claros, acessíveis e fáceis de utilizar.
+            </p>
+            <p class="aviso">
+                <strong>Como interpretar:</strong>
+                🟢 recomendado;
+                🟡 exige atenção;
+                🔴 deve ser evitado.
+                Os símbolos e títulos complementam as cores.
+            </p>
+        </section>
+
+        <section id="verde" class="categoria verde">
+            <div class="titulo-categoria">
+                <span class="icone-categoria" aria-hidden="true">🟢</span>
+                <div>
+                    <h2>VERDE — Boas práticas</h2>
+                    <p>Atitudes recomendadas para uma comunicação acessível.</p>
+                </div>
+            </div>
+
+            <div class="grade">
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✓</span>
+                    <h3>1. Linguagem simples</h3>
+                    <p>Use frases curtas e palavras conhecidas para facilitar a compreensão.</p>
+                    <span class="etiqueta">Boa prática</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">Aa</span>
+                    <h3>2. Fonte legível</h3>
+                    <p>Escolha fontes claras e tamanhos confortáveis para a leitura.</p>
+                    <span class="etiqueta">Acessibilidade</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">◐</span>
+                    <h3>3. Bom contraste</h3>
+                    <p>Garanta contraste suficiente entre o texto e o fundo.</p>
+                    <span class="etiqueta">Acessibilidade</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">⌨</span>
+                    <h3>4. Navegação por teclado</h3>
+                    <p>Permita acessar menus, links e botões sem precisar de um mouse.</p>
+                    <span class="etiqueta">Acessibilidade</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">▣</span>
+                    <h3>5. Textos alternativos</h3>
+                    <p>Descreva imagens informativas com textos alternativos para leitores de tela.</p>
+                    <span class="etiqueta">Acessibilidade</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="amarelo" class="categoria amarelo">
+            <div class="titulo-categoria">
+                <span class="icone-categoria" aria-hidden="true">🟡</span>
+                <div>
+                    <h2>AMARELO — Cuidado</h2>
+                    <p>Práticas que precisam ser avaliadas com atenção.</p>
+                </div>
+            </div>
+
+            <div class="grade">
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">!</span>
+                    <h3>6. Textos muito longos</h3>
+                    <p>Parágrafos extensos podem cansar e dificultar a localização das informações.</p>
+                    <span class="etiqueta">Exige atenção</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">Aa</span>
+                    <h3>7. Uso excessivo de maiúsculas</h3>
+                    <p>Textos inteiros em maiúsculas podem prejudicar a leitura e parecer gritos.</p>
+                    <span class="etiqueta">Exige atenção</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">◷</span>
+                    <h3>8. Mensagens temporárias</h3>
+                    <p>Alertas que desaparecem rapidamente podem não dar tempo para a leitura.</p>
+                    <span class="etiqueta">Exige atenção</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">↔</span>
+                    <h3>9. Layout muito carregado</h3>
+                    <p>Muitos elementos juntos podem distrair e dificultar a navegação.</p>
+                    <span class="etiqueta">Exige atenção</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">?</span>
+                    <h3>10. Termos técnicos</h3>
+                    <p>Palavras especializadas precisam de explicações quando o público pode não conhecê-las.</p>
+                    <span class="etiqueta">Exige atenção</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="vermelho" class="categoria vermelho">
+            <div class="titulo-categoria">
+                <span class="icone-categoria" aria-hidden="true">🔴</span>
+                <div>
+                    <h2>VERMELHO — Evitar</h2>
+                    <p>Práticas que prejudicam a comunicação e a acessibilidade.</p>
+                </div>
+            </div>
+
+            <div class="grade">
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✕</span>
+                    <h3>11. Usar somente cores</h3>
+                    <p>Não diferencie erros e acertos apenas por cores. Inclua textos, ícones ou rótulos.</p>
+                    <span class="etiqueta">Evitar</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✕</span>
+                    <h3>12. Contraste insuficiente</h3>
+                    <p>Evite textos que quase desaparecem no fundo ou exigem esforço para serem lidos.</p>
+                    <span class="etiqueta">Evitar</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✕</span>
+                    <h3>13. Links sem descrição</h3>
+                    <p>Evite expressões vagas como “clique aqui” sem contexto sobre o destino do link.</p>
+                    <span class="etiqueta">Evitar</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✕</span>
+                    <h3>14. Vídeos sem legendas</h3>
+                    <p>Vídeos com falas importantes devem oferecer legendas para ampliar o acesso ao conteúdo.</p>
+                    <span class="etiqueta">Evitar</span>
+                </article>
+
+                <article class="card">
+                    <span class="simbolo" aria-hidden="true">✕</span>
+                    <h3>15. Ignorar mensagens de erro</h3>
+                    <p>Não deixe formulários falharem sem explicar o problema e como corrigi-lo.</p>
+                    <span class="etiqueta">Evitar</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>♿ Comunicação acessível para todos</h2>
+            <p>
+                Uma boa interface considera diferentes necessidades,
+                oferece informações compreensíveis e permite que mais
+                pessoas utilizem o site com autonomia.
+            </p>
+            <p>
+                Este projeto apresenta exemplos educativos inspirados
+                em princípios de acessibilidade e usabilidade web.
+            </p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>🚦 Semáforo da Comunicação | Projeto educativo</p>
+        <p>HTML5 e CSS3 — 15 práticas de comunicação web</p>
+    </footer>
+</body>
+</html>
